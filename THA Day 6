@@ -1,0 +1,12 @@
+//Question 1
+
+var student = { name: "Zomato Karo", sclass: "XI", rollno: 69 };
+
+console.log(Object.keys(student));
+
+//Question 3
+
+const propOwn = Object.getOwnPropertyNames(student);
+console.log(propOwn.length)
+
+
